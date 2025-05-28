@@ -1,0 +1,1 @@
+ffmpeg -f concat -safe 0 -i list.txt -c:v h264_nvenc -preset medium -crf 23 -c:a aac -b:a 192k Jayrod-Talk-Compressed.mp4
